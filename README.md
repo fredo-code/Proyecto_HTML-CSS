@@ -4,7 +4,6 @@ Este repositorio contiene diferentes carpetas de proyectos realizados con HTML y
 
 
 ## 🔥 Página de inicio de sesión y registro
----
 Este proyecto se desarrollo en un curso de desarrollo frontend poniendo en práctica los conceptos de HTML y CSS, además de la metodología BEM para definir las clases.
 
 **Páginas del proyecto:**
