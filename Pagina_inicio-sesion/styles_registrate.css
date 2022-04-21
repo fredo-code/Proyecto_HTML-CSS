@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@700&display=swap'); /*importamos la fuente que vamos a utiliza de GoogleFonts*/
+
+body {
+    margin: 0px; /*quitamos todo el margen de nuestro cuerpo del documento*/
+    font-family: 'Mulish', sans-serif; /*aplicamos la fuente a todo el texto de nuestro "body" */
+}
+.header {
+    align-items: center;
+    background-color: #21C08B;
+    color: white;
+    display: flex; /*propiedad Flexbox para alinear el logo y el componente menú*/
+    height: 100px; /*medida absoluta ajusta la altura del header a 80px*/
+    justify-content: space-between; /*dejar un espacio entre los elementos*/
+    top: 0px;
+    width: 100%; /*Medida relativa para ajustar el ancho al 100% de las diferentes pantallas*/
+}
+.header__img {
+    margin-left: 30px;
+    width: 200px;
+}
+.login {
+    background: linear-gradient(#21C08B, #6e4eb8); /*aplicamos la propiedad de degradado*/
+    display: flex; /*felxbox para acomodar nuestros elementos*/
+    align-items: center; /*alinear de forma vertical*/
+    justify-content: center; /*alinear de forma horizontal*/
+    flex-direction: column; /*posicionar elementos de arriba abajo*/
+    padding: 0px, 30px;
+    min-height: calc(100vh - 200px); /*aplicamos esta propiedad para que siempre tenga el valor que se está calculando "calc" por más alto que sea la pantalla (vh=valor relativo)*/
+}
+.login__container {
+    background-color: rgba(255, 255, 255, 0.1); /*apicamos una opacidad reducida al contenedor*/
+    border: 3px solid white;
+    border-radius: 40px;
+    color: white;
+    padding: 60px 68px 40px 68px;
+    min-height: 600px;
+    width: 300px;
+    display: flex;
+    justify-content: space-around; /*hacer un espaciado igual en todos los elementos*/
+    flex-direction: column;
+}
+.login__container--form { /*clase de formulario*/
+    display: flex; /*alienar elementos*/
+    flex-direction: column; /*alinear elementos de arriba abajo*/
+}
+.login__container--form label { /*clase de formulario*/
+    font-size: 14px;
+}
+.login__container--register {
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+}
+.login__container--register a{
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    
+}
+.login__container--register a:hover {
+    text-decoration: underline;
+}
+.input { /*modificar componente input*/
+    background-color: transparent;
+    border-left: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 2px solid white;
+    font-size: 16px;
+    font-family: 'Mulish', sans-serif;
+    margin-bottom: 20px;
+    padding: 0px 20px;
+    outline: none;
+    height: 50px;
+}
+::placeholder {
+    color: white;
+}
+.button {
+    background-color: rgba(255, 255, 255, 0.25);
+    border: none;
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Mulish', sans-serif;
+    height: 50px;
+    letter-spacing: 1px; /*separar un poco las letras*/
+    margin: 10px 0px;
+}
+.footer {
+    background-color: #6e4eb8;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+}
+.footer a {
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    padding-left: 30px;
+    text-decoration: none;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
