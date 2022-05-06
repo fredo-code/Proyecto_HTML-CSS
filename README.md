@@ -13,5 +13,18 @@ Este proyecto se desarrolló en un curso de desarrollo frontend poniendo en prá
 * [Página para registrarse](https://fredo-code.github.io/Proyecto_HTML-CSS/Pagina_inicio-sesion/registrate.html "página de registro")
 
 
+## 🔥 Proyecto: Maquetación Mobile First - Landing Page
+
+En este proyecto se realiza una landing page de una empresa de criptomonedas, utilizando la maquetación: Mobile First
+
+[Repositorio de Proyecto](https://github.com/fredo-code/Proyecto_Responsive_Mobile_First "inicio de sesión")
+
+**Tecnologías usadas en el proyecto**
+* HTML
+* CSS
+* Metodología: BEM
+
+**Páginas del proyecto:**
+* [Página Principal](https://fredo-code.github.io/Proyecto_Responsive_Mobile_First/index.html "página principal")
 
 
