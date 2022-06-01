@@ -19,11 +19,6 @@ En este proyecto se realiza una landing page de una empresa de criptomonedas, ut
 
 [Repositorio de Proyecto](https://github.com/fredo-code/Proyecto_Responsive_Mobile_First "inicio de sesión")
 
-**Tecnologías usadas en el proyecto**
-* HTML
-* CSS
-* Metodología: BEM
-
 **Páginas del proyecto:**
 * [Página Principal](https://fredo-code.github.io/Proyecto_Responsive_Mobile_First/index.html "página principal")
 
