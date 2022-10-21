@@ -9,8 +9,7 @@ Este proyecto se desarrolló en un curso de desarrollo frontend poniendo en prá
 [Repositorio de Proyecto](https://github.com/fredo-code/login_page "Repositorio de Proyecto")
 
 **Páginas del proyecto:**
-* [Página web: incio de sesión](https://fredo-code.github.io/login_page/ "inicio de sesión")
-* [Página web: página de registro](https://fredo-code.github.io/login_page/registrate.html "página de registro")
+* [Página web: incio de sesión / registro](https://fredo-code.github.io/login_page/ "inicio de sesión")
 
 
 ## 🔥 Proyecto: Maquetación Mobile First - Landing Page
